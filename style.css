@@ -76,7 +76,7 @@
   color: #ffffff;
   max-width: 600px;
   /* width: 60%; */
-  margin: 20px;
+  /* margin: 20px; */
   width: 70%;
   /* margin-bottom: 20px; */
   /* text-align: center; */
@@ -187,6 +187,19 @@
     .mobile-menu {
       display: block !important;
       margin-right: 20px;
+    }
+
+    .rs-slider.style2 .slider-content .sl-desc {
+      
+      /* width: 60%; */
+      /* margin: 20px; */
+      width: 90% !important;
+      /* margin-bottom: 20px; */
+      /* text-align: center; */
+    }
+
+    .rs-slider.style2 .slider-content .sl-title {
+      font-size: 30px !important;
     }
   }
 
