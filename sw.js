@@ -1,28 +1,10 @@
-self.addEventListener("install", (event) => {
-    console.log("Service Worker : Installed!")
-
-    event.waitUntil(
-        
-        (async() => {
-            try {
-                cache_obj = await caches.open(cache)
-                cache_obj.addAll(caching_files)
-            }
-            catch{
-                console.log("error occured while caching...")
-            }
-        })()
-    )
-} );
+// this.addEventListener('install', (event) => {
+//     event.waitUntil(caches.open('static').then(catche => {
+//         return catche.addAll("./index.html", "./assets/images/KloudService512 × 512.png")
+//     }))
+// });
 
 
-self.addEventListener('fetch', (event) => {
-    event.respondWith(
-        caches.match(event.request).then(response => {
-            return response || fetch(event.request)
-        })
-    )
-});
-
-
-
+// this.addEventListener('fetch', (event) => {
+//     console.log(`request loaded, ${event.request.url}`)
+// })

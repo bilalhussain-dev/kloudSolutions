@@ -1,20 +1,22 @@
-{
-    "name": "KloudeSolutions",
-    "short_name": "KloudeSolutions",
-    "start_url": ".",
-    "background_color": "#eee",
-    "theme_color": "#000",
-    "display":"standalone",
-    "icons": [
-        {
-            "src": "./assets/images/logo-3.png",
-            "size": "500x500",
-            "type": "image/png"
-        },
-        {
-            "src": "./assets/images/logo-3.png",
-            "size": "500x500",
-            "type": "image/png"
-        }
-    ]
-}
+// {
+//     "name": "KloudeSolutions",
+//     "short_name": "KloudeSolutions",
+//     "start_url": ".",
+//     "background_color": "#eee",
+//     "theme_color": "#000",
+//     "display":"standalone",
+//     "icons": [
+//         {
+//             "src": "./assets/images/KloudService512 × 512.png",
+//             "size": "512x512",
+//             "type": "image/png",
+//             "purpose": "any maskable"
+//         },
+//         {
+//             "src": "./assets/images/KloudService512 × 512.png",
+//             "size": "512x512",
+//             "type": "image/png",
+//             "purpose": "any maskable"
+//         }
+//     ]
+// }

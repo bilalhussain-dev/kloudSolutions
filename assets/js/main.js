@@ -309,6 +309,8 @@
         mdDeviceDots = owlCarousel.data('md-device-dots');
         owlCarousel.owlCarousel({
             loop: (loop ? true : false),
+            autoHeight:true,
+            margin: 0,
             items: (items ? items : 4),
             lazyLoad: true,
             center: (centerMode ? true : false),
