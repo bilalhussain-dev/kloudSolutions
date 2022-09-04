@@ -317,7 +317,7 @@
   }
 
   .card-item {
-    height: 350px !important;
+    height: 450px !important;
   }
 
   .card-item-2 {
@@ -388,6 +388,10 @@
     .desc-wroks  {
       width: 90% !important;
       margin: 20px auto !important;
+    }
+
+    .card-item {
+      height: 350px !important;
     }
 
     .partner-desc {
