@@ -312,7 +312,7 @@
             autoHeight:true,
             margin: 0,
             items: (items ? items : 4),
-            lazyLoad: true,
+            lazyLoad: false,
             center: (centerMode ? true : false),
             autoplayHoverPause: (HoverPause ? true : false),
             margin: (margin ? margin : 0),
