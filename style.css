@@ -8,7 +8,7 @@
 * -----------------------------------------------------------------------------
 * 
 **/   
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,700&display=swap');
 
 /* BROWSER CLEARN UP */
 *,*::before,*::after {
@@ -19,20 +19,20 @@
 
 
 .rs-slider.style2 .slider-content.slide1 {
-    background-image:  linear-gradient(to right bottom, rgba(59, 5, 5, 0.9), rgba(0,0,0,0.9)), url(assets/images/slider/slide-1.jpg);
+    background-image:  linear-gradient(to right bottom, rgba(59, 5, 5, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   .rs-slider.style2 .slider-content.slide2 {
-    background-image:  linear-gradient(to right bottom, rgba(59, 5, 5, 0.9), rgba(0,0,0,0.9)), url(assets/images/slider/slide-2.jpg);
+    background-image:  linear-gradient(to right bottom, rgba(59, 5, 5, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .rs-slider.style2 .slider-content.slide3 {
-    background-image:  linear-gradient(to right bottom, rgba(59, 5, 5, 0.9), rgba(0,0,0,0.9)), url(assets/images/slider/slid-3.jpg);
+    background-image:  linear-gradient(to right bottom, rgba(59, 5, 5, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,13 +51,14 @@
   color: #ffffff;
   letter-spacing: 4px;
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
   /* text-align: center; */
-  text-transform: uppercase;
+  text-transform: capitalize;
 
 }
 .rs-slider.style2 .slider-content .sl-title2 {
-  font-size: 73px;
+  /* font-size: 73px; */
   line-height: 80px;
   font-weight: 900;
   color: #ffffff;
@@ -192,21 +193,26 @@
 
   .right-menu li {
     margin: 0 20px;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 600;
     text-transform: uppercase;
+    letter-spacing: 2px;
   }
 
   .right-menu li a {
     /* color: linear-gradient(90deg, #e0d8d9 10%, #e40e2a 100%); */
     color: #a10c19;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
 
 .brand-logo {
     padding: 0 2rem;
     color: #a10c19;
     font-size: 30px;
+    height: 140px;
+    object-fit: cover;
+    margin-top: 25px;
+    
 }
 
 
@@ -311,11 +317,11 @@
   }
 
   .card-item {
-    height: 450px !important;
+    height: 350px !important;
   }
 
   .card-item-2 {
-    height: 250px !important;
+    height: 200px !important;
     position: relative;
   }
 
@@ -336,7 +342,7 @@
 
 
   .bg-custom, .bg-about, .bg-contact {
-    background-image: linear-gradient(to right bottom, rgba(59, 5, 5, 0.9), rgba(0,0,0,0.9)),url(assets/images/slider/slide-2.jpg);
+    background-image: linear-gradient(to right bottom, rgba(59, 5, 5, 0.9), rgba(0,0,0,0.9)),url(assets/images/image-img.png);
 
     background-repeat: no-repeat;
     background-position: center center;
@@ -345,7 +351,7 @@
   }
 
   .partner-desc {
-    width: 70%;
+    width: 75%;
     margin: 20px auto;
     text-align: center;
   }
@@ -373,6 +379,24 @@
 
 
 
+  @media only screen and (max-width: 769px) {
+    .rs-about-sec {
+     /* text-align: center !important; */
+     width: 100% !important;
+     margin-top: -100px;
+    }
+    .desc-wroks  {
+      width: 90% !important;
+      margin: 20px auto !important;
+    }
+
+    .partner-desc {
+      width: 90% !important;
+      margin: 20px auto !important;
+      /* text-align: center; */
+    }
+  }
+
 /* Scroller */
 #scrollUp i {
   background-image: linear-gradient(90deg, #b6081f 10%, #e40e2a 100%);
@@ -389,4 +413,33 @@
 }
 #scrollUp i:hover {
   opacity: 0.8;
+}
+
+
+/* Off-Canvas LOGO */
+.off-canvas-logo {
+  height: 150px;
+}
+
+.off-canvas-header-logo {
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px;
+}
+
+.group-list .list-group-item {
+  /* background-color: red !important; */
+  border-bottom: 1px solid #e25266 !important;
+}
+
+
+.group-list .list-group-item a {
+  color: #333 !important;
+}
+
+.footer-section {
+  background: rgba(0, 0, 0, 0) linear-gradient(90deg, #b6081f 0%, #660717 100%);
 }
