@@ -1,7 +1,7 @@
 {
     "name": "KloudeSolutions",
     "short_name": "KloudeSolutions",
-    "start_url": ".",
+    "start_url": "https://kloudsolutions.netlify.app/",
     "background_color": "#eee",
     "theme_color": "#000",
     "display":"standalone",
