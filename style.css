@@ -1,3 +1,4 @@
+
 /** 
 * 
 * -----------------------------------------------------------------------------
@@ -14,12 +15,15 @@
 *,*::before,*::after {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 
 .rs-slider.style2 .slider-content.slide1 {
   /* height: 100vh; */
+  background-image:  -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.733)), to(rgba(0, 0, 0, 0.644))), url(assets/images/slider/slide-1.jpg);
+  background-image:  -o-linear-gradient(left top, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-1.jpg);
   background-image:  linear-gradient(to right bottom, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-1.jpg);
     background-size: cover;
     background-position: center;
@@ -28,6 +32,8 @@
   .rs-slider.style2 .slider-content.slide2 {
     /* height: 100%; */
     /* height: 100vh; */
+    background-image:  -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.733)), to(rgba(0, 0, 0, 0.644))), url(assets/images/slider/slide-2.jpg);
+    background-image:  -o-linear-gradient(left top, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-2.jpg);
     background-image:  linear-gradient(to right bottom, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-2.jpg);
     background-size: cover;
     background-position: center;
@@ -37,6 +43,8 @@
   .rs-slider.style2 .slider-content.slide3 {
     /* height: 100%; */
     /* height: 100vh; */
+    background-image:  -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.733)), to(rgba(0, 0, 0, 0.644))), url(assets/images/slider/slide-1.png);
+    background-image:  -o-linear-gradient(left top, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-1.png);
     background-image:  linear-gradient(to right bottom, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-1.png);
     background-size: cover;
     background-position: center;
@@ -87,6 +95,8 @@
 
 /* Button Components  */
 .readon.buy-now.sl-btn {
+    background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, right top, from(#b6081f), to(#f01d40));
+    background: rgba(0, 0, 0, 0) -o-linear-gradient(left, #b6081f 0%, #f01d40 100%);
     background: rgba(0, 0, 0, 0) linear-gradient(90deg, #b6081f 0%, #f01d40 100%);
     color: #ffffff;
     border-radius: 4px;
@@ -96,25 +106,35 @@
     padding: 17px 28px;
   }
   .readon.buy-now.sl-btn:hover {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgb(97, 7, 26)), to(#830c16));
+    background-image: -o-linear-gradient(left, rgb(97, 7, 26) 0%, #830c16 100%);
     background-image: linear-gradient(90deg, rgb(97, 7, 26) 0%, #830c16 100%);
   }
 
 
   .readon.learn-more.learn-btn {
+    background: -webkit-gradient(linear, left top, right top, from(rgb(182, 8, 31)), to(rgb(240, 29, 64))) rgba(0, 0, 0, 0);
+    background: -o-linear-gradient(left, rgb(182, 8, 31) 0%, rgb(240, 29, 64) 100%) rgba(0, 0, 0, 0);
     background: linear-gradient(90deg, rgb(182, 8, 31) 0%, rgb(240, 29, 64) 100%) rgba(0, 0, 0, 0);    
     border-radius: 3px 3px 3px 3px !important;
   }
   .readon.learn-more.learn-btn:hover {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgb(97, 7, 26)), to(#a10c19));
+    background-image: -o-linear-gradient(left, rgb(97, 7, 26) 0%, #a10c19 100%);
     background-image: linear-gradient(90deg, rgb(97, 7, 26) 0%, #a10c19 100%);
   }
 
 
   .readon.learn-more.submit {
+    background: -webkit-gradient(linear, left top, right top, from(rgb(182, 8, 31)), to(rgb(240, 29, 64))) rgba(0, 0, 0, 0);
+    background: -o-linear-gradient(left, rgb(182, 8, 31) 0%, rgb(240, 29, 64) 100%) rgba(0, 0, 0, 0);
     background: linear-gradient(90deg, rgb(182, 8, 31) 0%, rgb(240, 29, 64) 100%) rgba(0, 0, 0, 0);      padding: 16px 40px 16px 40px;
     font-weight: 500;
     font-size: 16px;
   }
   .readon.learn-more.submit:hover {
+    background: -webkit-gradient(linear, left top, right top, from(rgb(182, 8, 31)), to(rgb(170, 21, 46))) rgba(0, 0, 0, 0);
+    background: -o-linear-gradient(left, rgb(182, 8, 31) 0%, rgb(170, 21, 46) 100%) rgba(0, 0, 0, 0);
     background: linear-gradient(90deg, rgb(182, 8, 31) 0%, rgb(170, 21, 46) 100%) rgba(0, 0, 0, 0);      color: #ffffff;
   }
 
@@ -126,13 +146,19 @@
   /* Header Top */
 
   .full-width-header .rs-header .menu-area {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(10%, #b6081f), to(#e40e2a));
+    background-image: -o-linear-gradient(left, #b6081f 10%, #e40e2a 100%);
     background-image: linear-gradient(90deg, #b6081f 10%, #e40e2a 100%);
   }
 
 
   .rs-slider.style2 .owl-nav .owl-next:hover,
 .rs-slider.style2 .owl-nav .owl-prev:hover {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(10%, #b6081f), to(#e40e2a));
+    background-image: -o-linear-gradient(left, #b6081f 10%, #e40e2a 100%);
     background-image: linear-gradient(90deg, #b6081f 10%, #e40e2a 100%);
   color: #ffffff;
 }
@@ -156,10 +182,19 @@
     background-color: #fff;
     border-bottom: 1px solid #eee;
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
     display: flex;
-    justify-content: space-between;
-    align-items: center !important;
-    box-shadow: 0px 15px 10px -15px #111;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-shadow: 0px 15px 10px -15px #111;
+            box-shadow: 0px 15px 10px -15px #111;
 
   }
 
@@ -177,6 +212,14 @@
     font-size: 20px !important;
   }
 
+
+/* 
+  ************************8
+  ************
+     - MEDIA BRAKE-POINT FOR TABS AND MOBILE LAODING COMPONETNS
+     - MAKEING NAV RESPONSIVE & TOP BANNER COMPONENT SLIDERS
+  ***************
+*/
 
   @media only screen and (max-width: 769px) {
 
@@ -204,8 +247,12 @@
   }
 
   .right-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-right: 30px;
   }
 
@@ -228,7 +275,8 @@
     color: #a10c19;
     font-size: 30px;
     height: 120px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     margin-top: 25px;
     
 }
@@ -262,6 +310,8 @@
     border: 0;
     height: 4px;
     width: 50px;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(10%, #b6081f), to(#e40e2a));
+    background-image: -o-linear-gradient(left, #b6081f 10%, #e40e2a 100%);
     background-image: linear-gradient(90deg, #b6081f 10%, #e40e2a 100%);
     z-index: 1;
     margin-left: 0;
@@ -275,6 +325,8 @@
     top: 12px;
     height: 4px;
     width: 12px;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(10%, #b6081f), to(#e40e2a));
+    background-image: -o-linear-gradient(left, #b6081f 10%, #e40e2a 100%);
     background-image: linear-gradient(90deg, #b6081f 10%, #e40e2a 100%);
   }
   .sec-title .sub-text.new {
@@ -296,7 +348,8 @@
 /* User Area */
 .user-img {
     border-radius: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     height: 100px;
     width: 100px;
 }
@@ -318,6 +371,8 @@
 
 
 .bg13 {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(59, 5, 5, 0.9)), to(rgba(0,0,0,0.9))),url(assets/images/users/user-img.jpg);
+  background-image: -o-linear-gradient(left top, rgba(59, 5, 5, 0.9), rgba(0,0,0,0.9)),url(assets/images/users/user-img.jpg);
   background-image: linear-gradient(to right bottom, rgba(59, 5, 5, 0.9), rgba(0,0,0,0.9)),url(assets/images/users/user-img.jpg);
     background-repeat: no-repeat;
     background-position: top center;
@@ -326,6 +381,8 @@
   }
 
   .bg14 {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(59, 5, 5, 0.9)), to(rgba(0,0,0,0.9))),url(assets/images/slider/slide-2.jpg);
+    background-image: -o-linear-gradient(left top, rgba(59, 5, 5, 0.9), rgba(0,0,0,0.9)),url(assets/images/slider/slide-2.jpg);
     background-image: linear-gradient(to right bottom, rgba(59, 5, 5, 0.9), rgba(0,0,0,0.9)),url(assets/images/slider/slide-2.jpg);
 
     background-repeat: no-repeat;
@@ -349,17 +406,27 @@
     position: absolute;
     width: 40px;
     height: 40px;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(10%, #b6081f), to(#e40e2a));
+    background-image: -o-linear-gradient(left, #b6081f 10%, #e40e2a 100%);
     background-image: linear-gradient(90deg, #b6081f 10%, #e40e2a 100%);
     border-radius: 100px;
     color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 
   }
 
 
   .bg-custom, .bg-about, .bg-contact {
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(59, 5, 5, 0.9)), to(rgba(0,0,0,0.9))),url(assets/images/image-img.png);
+    background-image: -o-linear-gradient(left top, rgba(59, 5, 5, 0.9), rgba(0,0,0,0.9)),url(assets/images/image-img.png);
     background-image: linear-gradient(to right bottom, rgba(59, 5, 5, 0.9), rgba(0,0,0,0.9)),url(assets/images/image-img.png);
 
     background-repeat: no-repeat;
@@ -395,6 +462,12 @@
     text-align: center;
   }
 
+/* 
+  ************************8
+  ************
+     - MEDIA BRAKE-POINT FOR TABS AND MOBILE LAODING COMPONETNS
+  ***************
+*/
 
 
   @media only screen and (max-width: 769px) {
@@ -428,6 +501,8 @@
 
 /* Scroller */
 #scrollUp i {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(10%, #b6081f), to(#e40e2a));
+  background-image: -o-linear-gradient(left, #b6081f 10%, #e40e2a 100%);
   background-image: linear-gradient(90deg, #b6081f 10%, #e40e2a 100%);
   border-radius: 50%;
   height: 40px;
@@ -436,9 +511,12 @@
   width: 42px;
   color: #fff;
   line-height: 36px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   margin-left: 2px;
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
 }
 #scrollUp i:hover {
   opacity: 0.8;
@@ -459,8 +537,12 @@
 .off-canvas-header-logo {
   /* background-color: red; */
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   /* justify-content: center; */
   margin-top: -30px;
   margin-left: -20px;
@@ -476,6 +558,8 @@
   border-bottom: 1px solid #e25266 !important;
   background-color: #a10c19;
   color: #fff;
+  -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
 
@@ -492,5 +576,7 @@
 }
 
 .footer-section {
+  background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, right top, from(#b6081f), to(#660717));
+  background: rgba(0, 0, 0, 0) -o-linear-gradient(left, #b6081f 0%, #660717 100%);
   background: rgba(0, 0, 0, 0) linear-gradient(90deg, #b6081f 0%, #660717 100%);
 }
