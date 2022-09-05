@@ -22,9 +22,9 @@
 
 .rs-slider.style2 .slider-content.slide1 {
   /* height: 100vh; */
-  background-image:  -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.733)), to(rgba(0, 0, 0, 0.644))), url(assets/images/slider/slide-1.jpg);
-  background-image:  -o-linear-gradient(left top, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-1.jpg);
-  background-image:  linear-gradient(to right bottom, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-1.jpg);
+  background-image:  -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.733)), to(rgba(0, 0, 0, 0.644))), url(assets/images/slider/slide-1.png);
+  background-image:  -o-linear-gradient(left top, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-1.png);
+  background-image:  linear-gradient(to right bottom, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,9 +32,9 @@
   .rs-slider.style2 .slider-content.slide2 {
     /* height: 100%; */
     /* height: 100vh; */
-    background-image:  -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.733)), to(rgba(0, 0, 0, 0.644))), url(assets/images/slider/slide-2.jpg);
-    background-image:  -o-linear-gradient(left top, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-2.jpg);
-    background-image:  linear-gradient(to right bottom, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-2.jpg);
+    background-image:  -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.733)), to(rgba(0, 0, 0, 0.644))), url(assets/images/slider/slide-2.png);
+    background-image:  -o-linear-gradient(left top, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-2.png);
+    background-image:  linear-gradient(to right bottom, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,9 +43,9 @@
   .rs-slider.style2 .slider-content.slide3 {
     /* height: 100%; */
     /* height: 100vh; */
-    background-image:  -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.733)), to(rgba(0, 0, 0, 0.644))), url(assets/images/slider/slide-1.png);
-    background-image:  -o-linear-gradient(left top, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-1.png);
-    background-image:  linear-gradient(to right bottom, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-1.png);
+    background-image:  -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.733)), to(rgba(0, 0, 0, 0.644))), url(assets/images/slider/slide-3.jpg);
+    background-image:  -o-linear-gradient(left top, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-3.jpg);
+    background-image:  linear-gradient(to right bottom, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
