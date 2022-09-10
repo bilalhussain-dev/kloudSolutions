@@ -21,7 +21,7 @@
 
 
 .rs-slider.style2 .slider-content.slide1 {
-  /* height: 100vh; */
+  height: 100vh;
   background-image:  -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.733)), to(rgba(0, 0, 0, 0.644))), url(assets/images/slider/slide-1.png);
   background-image:  -o-linear-gradient(left top, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-1.png);
   background-image:  linear-gradient(to right bottom, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-1.png);
@@ -31,7 +31,7 @@
   }
   .rs-slider.style2 .slider-content.slide2 {
     /* height: 100%; */
-    /* height: 100vh; */
+    height: 100vh;
     background-image:  -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.733)), to(rgba(0, 0, 0, 0.644))), url(assets/images/slider/slide-2.png);
     background-image:  -o-linear-gradient(left top, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-2.png);
     background-image:  linear-gradient(to right bottom, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-2.png);
@@ -42,7 +42,7 @@
 
   .rs-slider.style2 .slider-content.slide3 {
     /* height: 100%; */
-    /* height: 100vh; */
+    height: 100vh;
     background-image:  -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.733)), to(rgba(0, 0, 0, 0.644))), url(assets/images/slider/slide-3.jpg);
     background-image:  -o-linear-gradient(left top, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-3.jpg);
     background-image:  linear-gradient(to right bottom, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.644)), url(assets/images/slider/slide-3.jpg);
@@ -222,7 +222,7 @@
 */
 
   @media only screen and (max-width: 769px) {
-
+  
     .right-menu {
       display: none !important;
     } 
@@ -576,7 +576,84 @@
 }
 
 .footer-section {
-  background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, right top, from(#b6081f), to(#660717));
-  background: rgba(0, 0, 0, 0) -o-linear-gradient(left, #b6081f 0%, #660717 100%);
-  background: rgba(0, 0, 0, 0) linear-gradient(90deg, #b6081f 0%, #660717 100%);
+  background-color: #fff;
+  color: #a10c19!important;
+}
+
+
+/* MOBILE MENUS  */
+.btn-open-menu {
+  outline: none;
+  border: none;
+  margin-right: 2rem;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+.btn-open-menu i {
+  font-size: 2rem;
+}
+
+/* .my-home {
+  position: relative;
+} */
+.overlay-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.521);
+  z-index: 10000;
+
+  opacity: 0;
+  visibility: hidden;
+}
+
+.menus {
+  position: fixed;
+  right: 0;
+  width: 300px;
+  top: 0;
+  background-color: #fff;
+  height: 100vh;
+}
+
+
+.close-menu {
+   position: absolute;
+   right: 20px;
+   top: 10px;
+   cursor: pointer;
+}
+
+
+.logo-mobile {
+   height: 100px;
+}
+
+.close-menu i {
+  font-size: 2rem;
+  color: rgb(131, 130, 130);
+}
+
+.mobile-menus-side{
+  margin-left: 1rem;
+}
+
+.mobile-menus-side li {
+  padding: .5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.mobile-menus-side li a {
+  color: #830c16;
+  font-size: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .btn-open-menu {
+     display: block !important;
+  }
 }
